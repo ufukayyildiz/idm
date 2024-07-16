@@ -9,7 +9,7 @@ if (form) {
     const shortenBtn = document.getElementById("shortenBtn");
     const spinner = document.querySelector("#shortenBtn .spinner-border");
 
-    shortenBtn.setAttribute("disabled", "true");
+    shortenBtn.setAttribute("disabled", "false");
     spinner.classList.remove("d-none");
 
     fetch("/api/links", {
